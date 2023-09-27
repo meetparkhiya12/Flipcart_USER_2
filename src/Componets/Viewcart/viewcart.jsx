@@ -37,23 +37,13 @@ function Viewcart() {
 
 dispatch(increment(id));
 // setcount(preCount => preCount + 1)
-
-
   }
-
   const dec = (id) => {
-
-    dispatch(decrement(id));
+   dispatch(decrement(id));
 
   }
-
   return (
     <>
-
-
-
-
-
       <Container>
 
         <h1 className='text-center my-3'>View cart</h1>
