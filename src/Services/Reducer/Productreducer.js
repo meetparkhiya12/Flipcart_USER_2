@@ -15,7 +15,7 @@ const Productreducer = (state = initiale, action) => {
 
             const find = state.product.findIndex(item => item.id == action.payload.id);
 
-            console.log(find,"find");
+            // console.log(find,"find");
 
             if (find >= 0) {
                 return (
@@ -38,7 +38,7 @@ const Productreducer = (state = initiale, action) => {
             let allproducts = removedata.filter((delet) => {
                 return delet.id != action.payload
             })
-console.log(allproducts,"alll");
+// console.log(allproducts,"alll");
             return (
                 {
                     ...state,
